@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .button, .button1, .button2{
+            height: 100px;
+            width: 100px;
+            border: 2px solid #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+              display: inline-block;
+        }
+
+          .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .cells {
+            width: 350px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<center>
+     <div class="cells">
+<div id="1" class="button"  onclick="tap(this.id)"></div>
+<div id="2" class="button"  onclick="tap(this.id)"></div>
+<div id="3" class="button"  onclick="tap(this.id)"></div>
+<div id="4" class="button1" onclick="tap(this.id)"></div>
+<div id="5" class="button1" onclick="tap(this.id)"></div>
+<div id="6" class="button1" onclick="tap(this.id)"></div>
+<div id="7" class="button2" onclick="tap(this.id)"></div>
+<div id="8" class="button2" onclick="tap(this.id)"></div>
+<div id="9" class="button2" onclick="tap(this.id)"></div>
+    </div>
+
+
+    <script>
+       function tap(clicked_id) {
+             document.getElementById('1').div = "krestik"
+           document.body.style.backgroundImage= "krestik"
+       }
+
+
+
+
+
+
+    </script>
+
+</center>
+</body>
+</html>
