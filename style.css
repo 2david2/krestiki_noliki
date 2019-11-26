@@ -1,0 +1,20 @@
+.button, .button1, .button2{
+            height: 100px;
+            width: 100px;
+            border: 2px solid #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            display: inline-block;
+    background-size: 100px 100px;
+        }
+          .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .cells {
+            width: 350px;
+        }
